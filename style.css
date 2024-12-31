@@ -1,0 +1,51 @@
+#explain{
+  font-size:18px;
+}
+#now{
+  color: pink;
+  font-weight: bold;
+  text-decoration:underline;
+  font-size:20px;
+}
+a{
+  color:skyblue;
+  text-decoration: none;
+}
+.cls{
+  border-right:1px solid black;
+  width:80px;
+  padding:10px;
+  padding-left:20px;
+  margin-top:0px;
+  padding-right:5%;
+}
+li{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+#bigtitle{
+  text-align:Center;
+  color:pink;
+  font-size:50px;
+  border-bottom:1px solid black;
+  margin:0;
+  padding:10px;
+}
+#bigdiv{
+  display:grid;
+  grid-template-columns:120px 1fr;
+}
+#linkpage{
+  padding-left:5px;
+}
+@media(max-width:540px){
+  #bigdiv{
+    display:block;
+  }
+  .cls{
+    border:none;
+  }
+  #bigtitle{
+    font-size:30px
+  }
+}
